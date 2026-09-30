@@ -1,0 +1,13 @@
+# Delete these routes and define your own shop routes here
+
+meday_sylius_hello_asso_static_welcome:
+    path: /static-welcome/{name}
+    defaults:
+        _controller: Meday\SyliusHelloAssoPlugin\Controller\GreetingController::staticallyGreetAction
+        name: ~
+
+meday_sylius_hello_asso_dynamic_welcome:
+    path: /dynamic-welcome/{name}
+    defaults:
+        _controller: Meday\SyliusHelloAssoPlugin\Controller\GreetingController::dynamicallyGreetAction
+        name: ~

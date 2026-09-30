@@ -1,0 +1,10 @@
+# Put your Behat suites definitions here
+
+default:
+    suites:
+        greeting_customer:
+            contexts:
+                - meday_sylius_hello_asso.context.ui.shop.welcome
+
+            filters:
+                tags: "@greeting_customer"

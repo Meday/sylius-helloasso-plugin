@@ -1,0 +1,5 @@
+meday_sylius_hello_asso_admin:
+    resource: "@MedaySyliusHelloAssoPlugin/config/routes/admin.yaml"
+
+meday_sylius_hello_asso_shop:
+    resource: "@MedaySyliusHelloAssoPlugin/config/routes/shop.yaml"
